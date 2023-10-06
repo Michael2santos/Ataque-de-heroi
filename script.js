@@ -24,14 +24,15 @@ class ataqueSupremo{
     }
 
     atacar(){
+
       if(this.tipo == "Mago"){
-        console.log(`${this.nome} é ${this.tipo} e atacou usando magia`)
+        console.log(`${this.nome} tem ${this.idade} anos de idade, é um ${this.tipo} que atacou usando magia`)
       }else if(this.tipo == "Guerreiro"){
-        console.log(`${this.nome} é ${this.tipo} e atacou usando espada`)
+        console.log(`${this.nome} tem ${this.idade} anos de idade, é um ${this.tipo} que atacou usando espada`)
       }else if(this.tipo == "Monge"){
-        console.log(`${this.nome} é ${this.tipo} e atacou usando artes marciais`)
+        console.log(`${this.nome} tem ${this.idade} anos de idade, é um ${this.tipo} que atacou usando artes marciais`)
       }else if(this.tipo == "Ninja"){
-        console.log(`${this.nome} é ${this.tipo} e atacou usando shuriken`)
+        console.log(`${this.nome} tem ${this.idade} anos de idade, é um ${this.tipo} que atacou usando shuriken`)
       }else{
         console.log("Tipo de heroi inválido")
       }
